@@ -1,3 +1,20 @@
+# Please read this comment
+This is an Andorid project based appon https://github.com/GleasonK/AndroidRTC/tree/master/app app.
+It uses android-webrtc-api created by PubNub company which allows quick signalling and TURN/STUN server communication.
+https://github.com/GleasonK/android-webrtc-api
+
+The code of the app was obsolete (last commit done 2 years ago) so it needed a lot of refactoring and updating for libraries and java code.
+Currently the app runs up and allows to log in to the room.
+Also, the connection is happening which means that the server communication works. I created PubNub account in order to provide working keys.
+There is however a problem with handling the video during the connection. This problem wasn't solved.
+
+
+The detailed description for this app can be found below:
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
 # AndroidRTC
 An example of native WebRTC on Android using PubNub's Android SDK signaling.
 
